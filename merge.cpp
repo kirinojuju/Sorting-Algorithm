@@ -4,8 +4,8 @@ using namespace std;
 
 void printArray(vector<int> &A)
 {
-    for (int x : A)
-        cout << x << " ";
+    for (int i = 0; i < A.size(); i++)
+        cout << A[i] << " ";
     cout << endl;
 }
 
